@@ -42,6 +42,9 @@
     cropController.rotationEnabled = NO;
     cropController.cropAspectRatio = ratioX / ratioY;
     cropController.keepingCropAspectRatio = YES;
+    cropController.keepingAspectOrientation = YES;
+
+    
 
     self.callbackId = command.callbackId;
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:cropController];
