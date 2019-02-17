@@ -42,7 +42,7 @@
     cropController.rotationEnabled = NO;
     cropController.cropAspectRatio = ratioX / ratioY;
     cropController.keepingCropAspectRatio = YES;
-    cropController.keepingAspectOrientation = YES;
+    cropController.keepingCropAspectOrientation = YES;
 
     
 
